@@ -7,7 +7,6 @@ import { Layout } from "@/components/Layout";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Publications from "./pages/Publications";
-import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
 import CV from "./pages/CV";
 import Contact from "./pages/Contact";
@@ -27,7 +26,6 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
             <Route path="/publications" element={<Publications />} />
-            <Route path="/projects" element={<Projects />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/cv" element={<CV />} />
